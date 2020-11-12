@@ -13,5 +13,7 @@ app.get('/evaluation', (req, res) =>{
     res.send('Hello ')
 })
 
-
+app.get('/dbhealthcheck', (req, res) => {
+    res.send('OK')
+})
 app.listen(PORT, HOST)
